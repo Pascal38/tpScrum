@@ -29,5 +29,10 @@ namespace TpErgonogaf
             menuPrincipal.Enabled = false;
             menuPrincipal.Visible = false;
         }
+
+        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
