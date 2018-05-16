@@ -24,7 +24,7 @@ namespace TpErgonogaf
 
         private void btnOK2_Click(object sender, EventArgs e)
         {
-            Close();
+       
                         
         }
     }

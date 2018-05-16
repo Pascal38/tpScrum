@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListeCollabos));
             this.grpRechercher = new System.Windows.Forms.GroupBox();
+            this.cbxService = new System.Windows.Forms.ComboBox();
             this.btnRechService = new System.Windows.Forms.Button();
             this.btnRechNom = new System.Windows.Forms.Button();
             this.txtNom = new System.Windows.Forms.TextBox();
@@ -38,7 +39,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnAnnuler = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
-            this.cbxService = new System.Windows.Forms.ComboBox();
             this.grpRechercher.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,19 @@
             this.grpRechercher.TabIndex = 0;
             this.grpRechercher.TabStop = false;
             this.grpRechercher.Text = "Rechercher Collaborateurs";
+            // 
+            // cbxService
+            // 
+            this.cbxService.FormattingEnabled = true;
+            this.cbxService.Items.AddRange(new object[] {
+            "Comptabilité",
+            "Administration",
+            "Accueil",
+            "Service Après-Vente"});
+            this.cbxService.Location = new System.Drawing.Point(115, 73);
+            this.cbxService.Name = "cbxService";
+            this.cbxService.Size = new System.Drawing.Size(282, 21);
+            this.cbxService.TabIndex = 6;
             // 
             // btnRechService
             // 
@@ -111,7 +124,7 @@
             // 
             // btnAnnuler
             // 
-            this.btnAnnuler.Location = new System.Drawing.Point(657, 439);
+            this.btnAnnuler.Location = new System.Drawing.Point(658, 408);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(75, 23);
             this.btnAnnuler.TabIndex = 2;
@@ -121,31 +134,18 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(546, 439);
+            this.btnOK.Location = new System.Drawing.Point(542, 408);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 3;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
             // 
-            // cbxService
-            // 
-            this.cbxService.FormattingEnabled = true;
-            this.cbxService.Items.AddRange(new object[] {
-            "Comptabilité",
-            "Administration",
-            "Accueil",
-            "Service Après-Vente"});
-            this.cbxService.Location = new System.Drawing.Point(115, 73);
-            this.cbxService.Name = "cbxService";
-            this.cbxService.Size = new System.Drawing.Size(282, 21);
-            this.cbxService.TabIndex = 6;
-            // 
             // frmListeCollabos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(760, 490);
+            this.ClientSize = new System.Drawing.Size(740, 441);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnAnnuler);
             this.Controls.Add(this.dataGridView1);
