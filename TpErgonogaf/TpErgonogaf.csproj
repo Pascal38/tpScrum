@@ -51,10 +51,19 @@
     <Compile Include="Ecran Principal.Designer.cs">
       <DependentUpon>Ecran Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmListeCollabos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListeCollabos.Designer.cs">
+      <DependentUpon>frmListeCollabos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ecran Principal.resx">
       <DependentUpon>Ecran Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListeCollabos.resx">
+      <DependentUpon>frmListeCollabos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

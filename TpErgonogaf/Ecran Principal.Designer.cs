@@ -64,6 +64,7 @@
             this.àproposdeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnConnection = new System.Windows.Forms.Button();
             this.btnDeconnection = new System.Windows.Forms.Button();
+            this.btnQuitterProg = new System.Windows.Forms.Button();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -192,6 +193,7 @@
             this.listeDesCollaborateurToolStripMenuItem.Name = "listeDesCollaborateurToolStripMenuItem";
             this.listeDesCollaborateurToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.listeDesCollaborateurToolStripMenuItem.Text = "Liste des Collaborateur";
+            this.listeDesCollaborateurToolStripMenuItem.Click += new System.EventHandler(this.listeDesCollaborateurToolStripMenuItem_Click);
             // 
             // editionToolStripMenuItem
             // 
@@ -329,7 +331,7 @@
             // 
             // btnConnection
             // 
-            this.btnConnection.Location = new System.Drawing.Point(12, 449);
+            this.btnConnection.Location = new System.Drawing.Point(12, 565);
             this.btnConnection.Name = "btnConnection";
             this.btnConnection.Size = new System.Drawing.Size(103, 30);
             this.btnConnection.TabIndex = 4;
@@ -339,7 +341,7 @@
             // 
             // btnDeconnection
             // 
-            this.btnDeconnection.Location = new System.Drawing.Point(626, 449);
+            this.btnDeconnection.Location = new System.Drawing.Point(121, 565);
             this.btnDeconnection.Name = "btnDeconnection";
             this.btnDeconnection.Size = new System.Drawing.Size(103, 30);
             this.btnDeconnection.TabIndex = 5;
@@ -347,12 +349,23 @@
             this.btnDeconnection.UseVisualStyleBackColor = true;
             this.btnDeconnection.Click += new System.EventHandler(this.btnDeconnection_Click);
             // 
+            // btnQuitterProg
+            // 
+            this.btnQuitterProg.Location = new System.Drawing.Point(757, 565);
+            this.btnQuitterProg.Name = "btnQuitterProg";
+            this.btnQuitterProg.Size = new System.Drawing.Size(103, 30);
+            this.btnQuitterProg.TabIndex = 7;
+            this.btnQuitterProg.Text = "&Quitter";
+            this.btnQuitterProg.UseVisualStyleBackColor = true;
+            this.btnQuitterProg.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
+            // 
             // AbiRh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(741, 491);
+            this.ClientSize = new System.Drawing.Size(872, 607);
+            this.Controls.Add(this.btnQuitterProg);
             this.Controls.Add(this.btnDeconnection);
             this.Controls.Add(this.btnConnection);
             this.Controls.Add(this.menuPrincipal);
@@ -405,6 +418,7 @@
         private System.Windows.Forms.ToolStripMenuItem collaborateurToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem listeDesCollaborateurToolStripMenuItem;
+        private System.Windows.Forms.Button btnQuitterProg;
     }
 }
 

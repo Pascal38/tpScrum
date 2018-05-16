@@ -34,5 +34,13 @@ namespace TpErgonogaf
         {
             Close();
         }
+
+        private void listeDesCollaborateurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListeCollabos frmL; // déclare une instance du form
+            frmL = new frmListeCollabos(); // instancie le form
+            frmL.MdiParent = this;
+            frmL.Show(); // affiche le form dans son conteneur
+        }
     }
 }
