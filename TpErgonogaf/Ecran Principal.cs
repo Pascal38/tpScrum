@@ -10,15 +10,20 @@ using System.Windows.Forms;
 
 namespace TpErgonogaf
 {
-    public partial class AbiRh : Form
+    public partial class frmEcranPrincipal : Form
     {
-        public AbiRh()
+        public frmEcranPrincipal()
         {
             InitializeComponent();
         }
 
         private void btnConnection_Click(object sender, EventArgs e)
         {
+            frmConnection frmC; // déclare une instance du form
+            frmC = new frmConnection(); // instancie le form
+            frmC.MdiParent = this;
+            frmC.Show(); // affiche le form dans son conteneur
+
             menuPrincipal.Enabled = true;
             menuPrincipal.Visible = true;
 

@@ -16,7 +16,7 @@ namespace TpErgonogaf
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AbiRh());
+            Application.Run(new frmEcranPrincipal());
         }
     }
 }

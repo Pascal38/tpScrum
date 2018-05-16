@@ -1,6 +1,6 @@
 ﻿namespace TpErgonogaf
 {
-    partial class AbiRh
+    partial class frmEcranPrincipal
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AbiRh));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEcranPrincipal));
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -78,7 +78,7 @@
             this.aideToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(741, 24);
+            this.menuPrincipal.Size = new System.Drawing.Size(872, 24);
             this.menuPrincipal.TabIndex = 3;
             this.menuPrincipal.Text = "menuPrincipal";
             this.menuPrincipal.Visible = false;
@@ -114,7 +114,7 @@
             // collaborateurToolStripMenuItem
             // 
             this.collaborateurToolStripMenuItem.Name = "collaborateurToolStripMenuItem";
-            this.collaborateurToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.collaborateurToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.collaborateurToolStripMenuItem.Text = "Collaborateur";
             // 
             // ouvrirToolStripMenuItem
@@ -359,7 +359,7 @@
             this.btnQuitterProg.UseVisualStyleBackColor = true;
             this.btnQuitterProg.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
-            // AbiRh
+            // frmEcranPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -371,7 +371,7 @@
             this.Controls.Add(this.menuPrincipal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
-            this.Name = "AbiRh";
+            this.Name = "frmEcranPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Projet ABI - Ressources Humaines";
             this.menuPrincipal.ResumeLayout(false);

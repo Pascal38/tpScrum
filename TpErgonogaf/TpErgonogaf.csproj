@@ -51,6 +51,12 @@
     <Compile Include="Ecran Principal.Designer.cs">
       <DependentUpon>Ecran Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnection.Designer.cs">
+      <DependentUpon>frmConnection.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListeCollabos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ecran Principal.resx">
       <DependentUpon>Ecran Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnection.resx">
+      <DependentUpon>frmConnection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListeCollabos.resx">
       <DependentUpon>frmListeCollabos.cs</DependentUpon>
